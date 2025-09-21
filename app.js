@@ -198,5 +198,58 @@
 //  alert ("Waiting for input...")
 // }
 
-
 // Advanced JavaScript Conditional Logic Practice
+
+// Q1
+
+// var gradeMarks = 420;
+// if (gradeMarks >= 80 && gradeMarks <= 100) {
+//   console.log("Distinction");
+// } else if (gradeMarks > 50 && gradeMarks <= 80) {
+//   console.log("Pass!");
+// } else if (gradeMarks < 50) {
+//   console.log("Fail");
+// } else {
+//   console.log("Invalid marks");
+// }
+
+//Q2
+
+// var age = 65;
+// var membershipStatus = "premium member";
+
+// if (age >= 60 && membershipStatus === "premium member") {
+//   console.log("Senior Premium Discount");
+// } else if (age >= 60) {
+//   console.log("Senior Discount");
+// } else if (membershipStatus === "premium member") {
+//   console.log("Premium Discount");
+// } else {
+//   console.log("No Discount");
+// }
+
+// Q3
+
+// var login = false;
+// var email = false;
+
+// if (login === true && email === true) {
+//   console.log("Access Granted");
+// } else if (login === true && email === false) {
+//   console.log("Please verify your email");
+// } else if (login === false && email === true) console.log("Please log in");
+// else {
+//   console.log("Please log in and verify your email");
+// }
+
+// Q4
+
+// var age = 18;
+// var country = "Pakistan"
+// var ban = true
+
+// if(age >= 18 && age <= 35 && (country === "Pakistan" || country ===  "India") && !ban){
+//           console.log("Eligible")
+// }else{
+//       console.log("Not eligible")
+// }
