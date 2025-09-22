@@ -314,3 +314,38 @@
 // }else if (age < "13"){
 //     console.log("Child")
 // }
+
+// Q9
+
+// var temperature = "1000"
+// var humidity = "1000"
+
+// if(temperature >= "40" && humidity >= "60"){
+//     console.log("Heatwave Alert")
+// }else if(temperature >= "40" && humidity < "60"){
+//     console.log("Hot and Dry")
+// }else if(temperature <= "20"){
+//     console.log("Cool Weather")
+// }else{
+//     console.log("Moderate")
+// }
+
+// Q10
+
+// var score = 69
+
+// if(score >= 90 && score <= 100){
+//     console.log("Excellent")
+// }else if(score >= 70 && score <= 89){
+//     console.log("Good")
+// }else if(score >= 50 && score <= 69){
+//     console.log("Average")
+// }else if(score >= 30 && score <= 49){
+//     console.log("Poor")
+// }else if( score >= 0 && score < 30){
+//     console.log("Fail")
+// }else{
+//     console.log("Invalid score")
+// }
+
+// Q11
