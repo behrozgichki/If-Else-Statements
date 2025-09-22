@@ -349,3 +349,75 @@
 // }
 
 // Q11
+
+// var Login = true
+// var enrollement = false
+// var Ban = false
+
+// if(!Login){
+//     console.log("Please Log in")
+// }else if(Ban){
+//     console.log("User is banned")
+// }else if(!enrollement){
+//     console.log("Enroll in course first")
+// }else{
+//     console.log("Access granted")
+// }
+
+// Q12
+
+// var speed = 200;
+// var license = false;
+
+// if(speed > 120){
+//     console.log("License suspended");
+// }else if (speed >= 100 && speed <= 120){
+//     console.log("Warning");
+// }else if (speed <=100 && license === true){
+//     console.log("Normal driving");
+// }else{
+//     console.log("Driving without license");
+// }
+
+// Q13
+
+// var payment = "failed";
+// var shipped = true;
+
+// if(payment == "complete" && shipped === true){
+//     console.log("Order on the way");
+// }else if(payment == "complete" && shipped === false){
+//     console.log("Order on the way");
+// }else if(payment == "pending"){
+//     console.log("Awaiting payment")
+// }else if (payment == "failed"){
+//     console.log("Payment failed")
+// }
+
+// Q14
+
+// var battery = 100;
+// var charging = true;
+
+// if(battery == 100){
+//     console.log("Fully Charged")
+// }else if(battery < 100 && charging == true){
+//     console.log("Charging...")
+// }else if(battery < 20 && charging == false){
+//     console.log("Low Battery")
+// }else{
+//     console.log("Battery OK")
+// }
+
+// Q15
+
+// var browser = "chrome"
+// var device = "desktop"
+
+// if (browser == "chrome" && device == "desktop"){
+//     console.log("Full features enabled")
+// }else if(browser == "chrome" && device == "mobile"){
+//     console.log("Limited mobile features")
+// }else{
+//     console.log("Please switch to Chrome")
+// }
