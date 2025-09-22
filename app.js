@@ -253,3 +253,64 @@
 // }else{
 //       console.log("Not eligible")
 // }
+
+// Q5
+
+// var login = true
+// var plan = "free"
+
+// if(plan == "premium" && login === true){
+//     console.log("Welcome Premium User")
+// }else if (plan === "free" && login === true){
+//     console.log("Welcome Free User");
+// }else if (login === false){
+//     console.log("Please log in to continue");
+// }else{
+//     console.log("Invalid subscription")
+// }
+
+// Q6
+
+// var price = "5000"
+// var user = "member"
+// var stock = true
+
+// if(price > "1000" && stock === true && user == "member"){
+//     console.log("Buy now with discount")
+// }else if (price <= "1000" && price > 0 && stock === true){
+//     console.log("Buy now")
+// }else if (stock === false){
+//     console.log("Out of stock")
+// }else{
+//     console.log("Invalid product")
+// }
+
+// Q7
+
+// var hoursWorked = "0"
+// var isWeekend = true
+
+// if(hoursWorked > "40" && isWeekend === false){
+//     console.log("Overtime")
+// }else if(hoursWorked > "0" && hoursWorked < "40" && isWeekend === true){
+//     console.log("Weekend work")
+// }else if (hoursWorked <= "40" && hoursWorked < "0"){
+//     console.log("Regular hours")
+// }else if (hoursWorked === "0"){
+// console.log("No work")
+// }
+
+// Q8
+
+// var age = "20"
+// var gender = "female"
+
+// if( age >= "13" && age <= "19" && gender === "male"){
+//     console.log("Teen Male")
+// }else if(age >= "13" && age <= "19" && gender === "female"){
+//     console.log(" female")
+// }else if (age >= "20"){
+//     console.log( "Adult")
+// }else if (age < "13"){
+//     console.log("Child")
+// }
