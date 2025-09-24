@@ -1,4 +1,169 @@
-Q1
+// lEARNING PYTHON
+
+//  Q1
+
+var speed = 50;
+
+if(speed <= 30){
+    console.log("Too slow");
+    
+} else if(speed > 30 && speed <= 60){
+    console.log("Safe speeding");
+    
+} else if(speed > 60 && speed <= 100){
+    console.log("Speeding");
+    
+} else {
+    console.log("Dangerously Fast");
+    
+}
+
+// Q2
+
+var returnBook = 15
+
+if(returnBook === 0){
+    console.log("0$");
+} else if(returnBook >= 1 && returnBook <= 5){
+    console.log("$1$ per day" , returnBook * 1);
+} else if(returnBook >= 6 && returnBook <= 10){
+    console.log("$2$ per day" , returnBook * 2);
+} else {
+    console.log("$5 per day ==> $" , returnBook * 5);
+}
+
+
+// Q3
+
+var ticket = true;
+var age = 10;
+
+if(ticket && age >= 18){
+    console.log("Welcome to our event");
+    
+} else {
+    console.log("No Entry!");
+    
+}
+
+
+// Q4
+
+var battery = 2;
+
+if(battery >= 80 && battery <= 100){
+    console.log("Fully charge");
+    
+} else if(battery >= 50 && battery <= 79){
+    console.log("Good Battery");
+    
+} else if(battery >= 20 && battery <= 49){
+    console.log("low battery");
+    
+} else if(battery <= 20 && battery >= 0){
+    console.log("Charge Now!");
+    
+} else {
+    console.log("Invalid");
+    
+}
+
+
+// Q5
+
+var customerType = "senior";
+var age = 60;
+
+if(customerType === "senior" && age >= 60){
+    console.log("30% Discount");
+    
+} else if(customerType === "student" && age >= 20){
+    console.log(" 20% Discount");
+    
+} else {
+    console.log("0% Discount");
+    
+}
+
+
+
+
+
+// Q6
+
+var temperature = 11;
+
+if(temperature <= 10){
+    console.log("Heavy jacket");
+    
+} else if(temperature > 10 && temperature <= 20){
+    console.log("Sweater");
+    
+} else if(temperature > 20 && temperature <= 30){
+    console.log("T-shirt");
+    
+} else {
+    console.log("Light Clothes");
+    
+}
+
+
+// Q7
+
+var activityLevel = 2.5;
+
+
+if(activityLevel === 2){
+    console.log("Sedentary");
+    
+} else if(activityLevel === 2.5){
+    console.log("Moderate");
+    
+} else if(activityLevel >= 3) {
+    console.log("Active")
+}
+else {
+    console.log("Activity level not recognized.");
+    
+}
+
+// Q8
+
+var result = 10
+if(result >= 40){
+    console.log("Pass")
+}else if(result <= 40){
+    console.log("Fail")
+}
+
+// Q9
+
+var time = 15
+if(time >= 6 && time <= 17 ){
+    console.log("Light Mode")
+}
+else if( time >= 17){
+    console.log("Dark Mode")
+}
+
+// Q10
+var dayTime = 25
+
+
+if (dayTime >= 6 && dayTime <= 10) {
+    console.log("Breakfast");
+} else if (dayTime >= 12 && dayTime <= 14) {
+    console.log("Lunch");
+} else if (dayTime >= 18 && dayTime <= 21) {
+    console.log("Dinner");
+} else {
+    console.log("Snack");
+}
+
+// LEARNING PYTHON ENDED
+
+
+// Q1
 
 var age = prompt("Enter your age")
 
@@ -8,7 +173,7 @@ if(age >= 18 ){
    alert ("You are Minor");
 }
 
-Q2
+// Q2
 
 var number = prompt("Enter a number:");
 
@@ -18,7 +183,7 @@ if(number > 0){
     console.log("Not Positive");
 }
 
-Q3
+// Q3
 
 var number = prompt("Enter a Number")
 
@@ -29,7 +194,7 @@ else{
     alert("Odd Number")
 }
 
-Q4
+// Q4
 
 var username = prompt("Enter your Username")
 
@@ -39,7 +204,7 @@ if( username === "admin"){
     alert("Acsess denied")
 }
 
-Q5
+// Q5
 
 var num1 = prompt("Enter the first number")
 var num2 = prompt("Enter the second number")
@@ -50,7 +215,7 @@ if(num1 == num2){
     console.log(" The numbers are different")
 }
 
-Q6
+// Q6
 
 var num1 = prompt("Enter first number");
 var num2 = prompt("Enter second number");
@@ -61,7 +226,7 @@ if(num1 > num2){
     alert("Second is larger");
 }
 
-Q7
+// Q7
 
 var number = prompt("Enter a number")
 
@@ -71,7 +236,7 @@ if(number >= 100 ){
     alert("Within range")
 }
 
-Q8
+// Q8
 
 var score = prompt("Enter your score");
 
@@ -81,7 +246,7 @@ if(score >= 50){
     console.log("You Failed.");
 }
 
-Q9
+// Q9
 
 var temperature = prompt("Enter the temperature.");
 
@@ -91,7 +256,7 @@ if(temperature > 30){
     alert("It's not hot")
 }
 
-Q10
+// Q10
 
 var number = prompt("Enter a number");
 
@@ -101,7 +266,7 @@ if(number == 0){
     alert("Not zero.");
 }
 
-Q11
+// Q11
 
 var age =prompt("Enter your age");
 
@@ -111,7 +276,7 @@ if(age >= "60"){
     console.log("You are not a senior.");
 }
 
-Q12
+// Q12
 
 var Username = prompt("Enter your name");
 
@@ -121,7 +286,7 @@ if(Username === "Alice"){
     alert("You are not Alice!")
 }
 
-Q13
+// Q13
 
 var password =prompt("Enter the password");
 
@@ -131,7 +296,7 @@ if(password === "12345"){
     console.log("Wrong Passowrd");
 }
 
-Q14
+// Q14
 
 var time = prompt("Enter the current hour");
 
@@ -141,7 +306,7 @@ if(time <= "12"){
           alert("Good afternoon!");
 }
 
-Q15
+// Q15
 
 var number = prompt("Enter a number");
 if(number % 5 == "0"){
@@ -150,7 +315,7 @@ if(number % 5 == "0"){
           console.log("Not divisible by 5");
 }
 
-Q16
+// Q16
 
 var game = prompt("Want to play a game? (yes/no)");
 
@@ -160,7 +325,7 @@ if (game === "yes"){
     alert("Maybe next time!");
 }
 
-Q17
+// Q17
 
 var color = prompt("Enter a color");
 if (color == "blue") {
@@ -169,7 +334,7 @@ if (color == "blue") {
   console.log("Interesting color!");
 }
 
-Q18
+// Q18
 
 var day = prompt("What's the day today");
 if(day == "sunday"){
@@ -178,7 +343,7 @@ if(day == "sunday"){
           alert("Weekday");
 }
 
-Q19
+// Q19
 
 var fruit = prompt("Enter a fruit");
 
@@ -188,7 +353,7 @@ if (fruit === "banana" || fruit === "apple") {
   alert("Sorry, out of stock.");
 }
 
-Q20
+// Q20
 
 var start = prompt("Type start");
 
@@ -200,7 +365,7 @@ if(start === "start"){
 
 // Advanced JavaScript Conditional Logic Practice
 
-Q1
+// Q1
 
 var gradeMarks = 420;
 if (gradeMarks >= 80 && gradeMarks <= 100) {
@@ -213,7 +378,7 @@ if (gradeMarks >= 80 && gradeMarks <= 100) {
   console.log("Invalid marks");
 }
 
-Q2
+// Q2
 
 var age = 65;
 var membershipStatus = "premium member";
@@ -228,7 +393,7 @@ if (age >= 60 && membershipStatus === "premium member") {
   console.log("No Discount");
 }
 
-Q3
+// Q3
 
 var login = false;
 var email = false;
@@ -242,7 +407,7 @@ else {
   console.log("Please log in and verify your email");
 }
 
-Q4
+// Q4
 
 var age = 18;
 var country = "Pakistan"
@@ -254,7 +419,7 @@ if(age >= 18 && age <= 35 && (country === "Pakistan" || country ===  "India") &&
       console.log("Not eligible")
 }
 
-Q5
+// Q5
 
 var login = true
 var plan = "free"
@@ -269,7 +434,7 @@ if(plan == "premium" && login === true){
     console.log("Invalid subscription")
 }
 
-Q6
+// Q6
 
 var price = "5000"
 var user = "member"
@@ -285,7 +450,7 @@ if(price > "1000" && stock === true && user == "member"){
     console.log("Invalid product")
 }
 
-Q7
+// Q7
 
 var hoursWorked = "0"
 var isWeekend = true
@@ -300,7 +465,7 @@ if(hoursWorked > "40" && isWeekend === false){
 console.log("No work")
 }
 
-Q8
+// Q8
 
 var age = "20"
 var gender = "female"
@@ -315,7 +480,7 @@ if( age >= "13" && age <= "19" && gender === "male"){
     console.log("Child")
 }
 
-Q9
+// Q9
 
 var temperature = "1000"
 var humidity = "1000"
@@ -330,7 +495,7 @@ if(temperature >= "40" && humidity >= "60"){
     console.log("Moderate")
 }
 
-Q10
+// Q10
 
 var score = 69
 
@@ -348,7 +513,7 @@ if(score >= 90 && score <= 100){
     console.log("Invalid score")
 }
 
-Q11
+// Q11
 
 var Login = true
 var enrollement = false
@@ -364,7 +529,7 @@ if(!Login){
     console.log("Access granted")
 }
 
-Q12
+// Q12
 
 var speed = 200;
 var license = false;
@@ -379,7 +544,7 @@ if(speed > 120){
     console.log("Driving without license");
 }
 
-Q13
+// Q13
 
 var payment = "failed";
 var shipped = true;
@@ -394,7 +559,7 @@ if(payment == "complete" && shipped === true){
     console.log("Payment failed")
 }
 
-Q14
+// Q14
 
 var battery = 100;
 var charging = true;
@@ -409,7 +574,7 @@ if(battery == 100){
     console.log("Battery OK")
 }
 
-Q15
+// Q15
 
 var browser = "chrome"
 var device = "desktop"
